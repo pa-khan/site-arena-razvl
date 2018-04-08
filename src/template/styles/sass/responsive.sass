@@ -1,13 +1,680 @@
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1940px)
+	.contacts
+		&:after
+			display: none
+		.case
+			&:after, &:before
+				display: none
+
+@media screen and (max-width: 1860px)
+	.case
+		&_more
+			width: 1230px
+
+@media screen and (max-width: 1380px)
+	.pers__list, .photos__list, .videos__list
+		padding-left: 20px
+		padding-right: 20px
+		.slick-prev
+			left: 0
+		.slick-next
+			right: 0
+	
+	.photos__list
+		padding-left: 60px
+		padding-right: 60px
+	.videos__list
+		padding-left: 40px
+		padding-right: 40px
+
+@media screen and (max-width: 1280px)
+	img
+		max-width: 100%
 	.case
 		width: 950px
+	// .title
+	// 	img
+	// 		display: none
+	// 	span
+	// 		display: block
+	.header
+		padding-top: 0
+		height: 910px
+		&__content
+			margin-bottom: 0
+			
+		&__addresses, &__phones
+			width: 250px
+			padding-top: 90px
+			text-shadow: -0 -1px 0 #FFFFFF, 0 -1px 0 #FFFFFF, -0  1px 0 #FFFFFF, 0  1px 0 #FFFFFF, -1px -0 0 #FFFFFF, 1px -0 0 #FFFFFF, -1px  0 0 #FFFFFF, 1px  0 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px  1px 0 #FFFFFF, 1px  1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px  1px 0 #FFFFFF, 1px  1px 0 #FFFFFF
+		&__logo
+			width: calc(100% - 500px)
+			
+		&__phones
+			float: right
+
+		&__nav
+			li
+				&:nth-of-type(1)
+					width: 220px
+				&:nth-of-type(2)
+					width: 280px
+					margin-left: 100px
+					margin-right: 100px
+				&:nth-of-type(3)
+					width: 220px
+				img
+					// display: none
+				span
+					// display: block
+
+		&__pers
+			margin-left: 0px
+			&-title
+				display: none
+			&-item
+				img
+					// max-width: none
+				&:nth-of-type(1)
+					width: 400px
+					left: -25px
+				&:nth-of-type(2)
+					width: 480px
+					left: 150px
+				&:nth-of-type(3)
+					width: 375px
+					left: 450px
+				&:nth-of-type(4)
+					width: 285px
+					left: 680px
+
+
+		&__title
+			left: -105px
+			top: -140px
+			img
+				max-width: 1150px
+			img
+				display: block
+			span
+				display: none
+			
+	.team
+		margin-top: 0
+		padding-top: 20px
+		&__title
+			margin-bottom: 15px
+			img
+				max-width: 450px
+
+	.facts
+		padding-top: 55px
+		padding-bottom: 40px
+		.case
+			&:before, &:after
+				display: none
+		&__title
+			margin-bottom: 35px
+			img
+				max-width: 380px
+		&__img
+			&:before
+				width: calc(100% + 10px)
+				height: calc(100% + 10px)
+				background-size: 100%
+				top: -5px
+				left: -5px
+		&__subtitle
+			font-size: 18px
+			line-height: normal
+			
+	.pers
+		margin-bottom: 45px
+		&__title
+			margin-bottom: 35px
+			img
+				max-width: 420px
+		&__list
+			margin-bottom: 20px
+		&__name
+			font-size: 23px
+			padding-top: 5px
+			padding-bottom: 6px
+			
+		&__btn
+			font-size: 24px
+			width: 300px
+			margin-top: 0
+
+	.programs
+		background: #FF4590
+		.case
+			padding-top: 25px
+			&:before, &:after
+				display: none
+		&__title
+			margin-bottom: 35px
+			img
+				max-width: 400px
+		&__item
+			width: 33.333%
+			margin-bottom: 40px
+		&__img
+			margin-bottom: 15px
+		&__subtitle
+			font-size: 24px
+
+	.dops
+		padding-top: 55px
+		padding-bottom: 30px
+		&__title
+			margin-bottom: 15px
+			img
+				max-width: 700px
+		&__item
+			width: 33.3333%
+
+		&__img
+			margin-bottom: 15px
+			
+
+		&__subtitle
+			font-size: 24px
+			
+
+	.gallery
+		padding-top: 25px
+		&__title
+			margin-bottom: 25px
+			img
+				max-width: 600px
+
+	.photos
+		padding-bottom: 25px
+	.videos
+		// background: none
+		padding-bottom: 30px
+		padding-top: 30px
+		background: #F2F2F2
+			
+	.reviews
+		padding-top: 35px
+		padding-bottom: 30px
+		background: none
+		&__title
+			margin-bottom: 45px
+			img
+				max-width: 550px
+		&__videos
+			margin-bottom: 30px
+			
+		&__btn
+			font-size: 24px
+			width: 300px
+
+	.callback
+		background-size: 300%
+		background-position: center
+		padding-top: 35px
+		padding-bottom: 35px
+		&__title
+			margin-bottom: 25px
+			img
+				max-width: 500px
+		&__input
+			margin-bottom: 15px
+			
+			
+	.input
+		&_default
+			input
+				font-size: 18px
+
+	.btn
+		&_border
+			height: 60px
+			font-size: 24px
+			border: 7px solid #ffffff
+
+
+	.contacts
+		padding-top: 25px
+		margin-bottom: 30px
+		&__title
+			font-size: 45px
+			margin-bottom: 15px
+		&__text
+			font-size: 30px
+			
+		&__socials
+			li
+				margin-left: 0
+				margin-right: 0
+				transform: scale(.8)
+			
+	.footer
+		font-size: 18px
+		background: #E3468D
+		padding-top: 15px
+		padding-bottom: 15px
+			
+	.popup, .pers__card
+		width: 95%
+
+	.pers
+		&__card
+			padding: 15px
+			padding-top: 0
+		&__list
+			
+		&__slider
+			margin-bottom: 15px
+			margin-left: -15px
+			margin-right: -15px
+			.slick-prev
+				left: 10px
+			.slick-next
+				right: 10px
+			
+		&__subtitle
+			font-size: 30px
+			margin-bottom: 10px
+			
+		&__desc
+			margin-bottom: 15px
+			
+		&__text
+			font-size: 18px
+			li
+				font-size: 18px
+			p
+				margin-bottom: 10px
+			&_big
+				font-size: 18px
+			
+		&__subsubtitle
+			font-size: 24px
+			
 
 
 @media screen and (max-width: 970px)
 	.case
 		width: 750px
 
+	.header
+		height: auto
+		.case
+			&:before, &:after
+				display: none
+		&__pers, &__nav
+			display: none
+		&__title
+			top: 0
+		&__addresses
+			display: none
+		&__logo
+			width: auto
+			img
+				max-width: 180px
+		&__phones
+			width: auto
+			line-height: normal
+			font-size: 24px
+			padding-top: 65px
+
+		&__title
+			left: 0
+			img
+				max-width: 100%
+			
+
+	.dops__img
+		width: 210px
+		margin-left: auto
+		margin-right: auto
+		&:before
+			width: calc(100% + 20px)
+			height: calc(100% + 20px)
+			background-size: 100%
+			top: -10px
+			left: -10px
+			margin-left: 0
+
+
+	.reviews
+		&__videos
+			&-item
+				padding: 10px
+				a
+					position: relative
+					&:before
+						width: calc(100% + 20px)
+						height: calc(100% + 20px)
+						background-size: 100%
+						top: -10px
+						left: -10px
+						margin-left: 0
+					&:after
+						transform: scale(.6)
+						left: 50%
+						margin-left: -110px
+						bottom: -6px
+					&:hover
+						&:after
+							transform: scale(.45)
+		&__item
+			margin-bottom: -38px
+
+		&__btn
+			margin-top: 65px
+			
+			
+			
+			
 
 @media screen and (max-width: 767px)
+	.title
+		img
+			display: none
+		span
+			display: block
+			font-size: 32px
+			text-align: center
+			text-transform: uppercase
+			font-weight: 900
+			color: #00A6D5
 	.case
 		width: 100%
+	.header
+		&__title
+			span
+				display: none
+			img
+				display: block
+
+			
+	.team
+		overflow: hidden
+		&__wrap
+			margin-bottom: -10%
+			img
+				margin-left: 2%
+	.facts
+		background: none
+		margin-top: 0
+		padding-bottom: 10px
+		padding-top: 25px
+		&__title
+			span
+				color: #C34A8A
+		&__list
+			font-size: 0
+			text-align: center
+			
+		&__item
+			width: 33.333%
+			display: inline-block
+			vertical-align: top
+			float: none
+			margin-bottom: 20px
+
+		&__img
+			margin-bottom: 15px
+			img
+				// max-width: 125px
+				// max-height: 125px
+
+		&__subtitle
+			min-height: 
+			
+			
+	.pers
+		&__list
+			.slick-arrow
+				transform: scale(.7) translate(0, -50%)
+				&:hover
+					transform: scale(.7) translate(0, -50%)
+			.slick-next
+				right: -10px
+			.slick-prev
+				left: -10px
+				margin-top: -2px
+			
+		&__block
+			width: 280px
+			background-size: 100% 100%
+			background-repeat: no-repeat
+		
+
+	.pers, .photos, .videos
+		&__list
+			padding-left: 0 !important
+			padding-right: 0 !important
+			
+
+	.programs, .dops
+		&__title
+			span
+				color: #fff
+
+		&__item
+			width: 50%
+			
+	.programs
+		padding-bottom: 0px
+	.dops
+		background: #00A6D5
+		margin-top: 0
+		padding-top: 25px
+		padding-bottom: 0
+		&__title
+			margin-bottom: 30px
+			
+
+	.photos
+		&__list
+			.slick-arrow
+				margin-top: -15px
+
+			.slick-prev
+				left: -25px
+
+			.slick-next
+				right: -25px
+
+
+	.videos
+		padding-top: 25px
+		padding-bottom: 25px
+		&__list
+			padding-left: 40px !important
+			padding-right: 40px !important
+			.slick-arrow
+				margin-top: -4%
+			.slick-prev
+				left: -20px
+			.slick-next
+				right: -20px
+		&__item
+			iframe
+				width: 100% !important
+	
+	.reviews
+		padding-top: 25px
+		&__title
+			margin-bottom: 25px
+			
+		&__videos
+			font-size: 0
+			text-align: center
+			&-item
+				// width: 50%
+				padding: 15px
+				width: 200px
+				float: none
+				display: inline-block
+				vertical-align: middle
+		&__item
+			margin-bottom: 0
+			margin-bottom: 30px
+		&__block
+			width: auto
+			height: auto
+			background: none
+		&__img
+			padding-top: 0
+			margin-left: 0
+		&__content
+			padding-top: 0
+			width: calc(100% - 61px - 16px)
+		&__img, &__content
+			display: inline-block
+			vertical-align: middle
+
+		&__subtitle
+			text-align: left
+			margin-bottom: 5px
+			
+		&__btn
+			margin-top: 0px
+			
+
+	.callback
+		padding-bottom: 25px
+		background-position: center -50px
+		background-size: 400%
+		&__title
+			span
+				color: #fff
+		&__input, &__btn
+			max-width: 500px
+			width: 100%
+
+		&__btn
+			font-size: 20px
+			border: 5px solid #ffffff
+			height: 52px
+			
+			
+			
+	.contacts
+		&__title
+			font-size: 30px
+			
+			
+	.popup
+		padding: 15px
+		&__title
+			font-size: 30px
+			margin-bottom: 10px
+		.input
+			margin-bottom: 15px
+			&_border
+				input
+					font-size: 18px
+					border: 2px solid #51a4d2
+		&__btn
+			font-size: 20px
+			margin-top: 0
+			padding-top: 8px
+			padding-bottom: 8px
+			width: 100%
+			max-width: 530px
+			
+	.slick-arrow
+		transform: scale(.62) translate(0, -50%) !important
+		&:hover
+			transform: scale(.62) translate(0, -50%) !important
+
+
+
+
+@media screen and (max-width: 550px)
+	.programs, .dops
+		&__item
+			width: 100%
+	
+@media screen and (max-width: 500px)
+	.header
+		padding-top: 10px
+		&__logo
+			img
+				max-width: 150px
+
+		&__logo, &__phones
+			float: none
+
+		&__phones
+			padding-top: 5px
+			text-align: center
+
+		&__title
+			margin-left: -45px
+			margin-right: -45px
+			margin-bottom: -18%
+		
+	.facts
+		&__item
+			width: 50%
+			
+
+	.videos
+		background-size: 400%
+		&__list
+			.slick-arrow
+				margin-top: -7%
+			
+		&__item
+			iframe
+				height: 200px
+			
+
+	
+@media screen and (max-width: 420px)
+	.videos
+		&__list
+			padding-left: 0 !important
+			padding-right: 0 !important
+			.slick-arrow
+				display: none !important
+			
+	
+
+@media screen and (max-width: 370px)
+	.reviews
+		&__img
+			margin-bottom: 10px
+			margin-left: auto
+			margin-right: auto
+			display: block
+			
+		&__content
+			display: block
+			width: 100%
+
+		&__subtitle
+			margin-bottom: 10px
+			
+	.callback
+		&__title
+			span
+				font-size: 22px
+			
+
+
+	.pers
+		&__slider
+			.slick-arrow
+				margin-top: -5%
+
+	.pers__btn, .reviews__btn
+		width: 100% !important
+
+	.reviews__btn
+		font-size: 22px
+			
+
+	.popup
+		&__btn
+			font-size: 18px
+			

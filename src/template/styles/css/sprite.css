@@ -1,0 +1,59 @@
+.icon-arrow-left-big {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 67px;
+  height: 171px; }
+
+.icon-arrow-left-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -256px -126px;
+  width: 18px;
+  height: 26px; }
+
+.icon-arrow-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -228px -126px;
+  width: 28px;
+  height: 43px; }
+
+.icon-arrow-right-big {
+  background-image: url(../../img/sprite.png);
+  background-position: -67px 0px;
+  width: 67px;
+  height: 171px; }
+
+.icon-arrow-right-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -197px -93px;
+  width: 18px;
+  height: 26px; }
+
+.icon-instagram {
+  background-image: url(../../img/sprite.png);
+  background-position: -134px -93px;
+  width: 63px;
+  height: 63px; }
+
+.icon-ok {
+  background-image: url(../../img/sprite.png);
+  background-position: -228px 0px;
+  width: 63px;
+  height: 63px; }
+
+.icon-play {
+  background-image: url(../../img/sprite.png);
+  background-position: -134px 0px;
+  width: 94px;
+  height: 93px; }
+
+.icon-vk {
+  background-image: url(../../img/sprite.png);
+  background-position: -228px -63px;
+  width: 63px;
+  height: 63px; }
+
+.icon-youtube {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -171px;
+  width: 63px;
+  height: 63px; }

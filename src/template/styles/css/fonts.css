@@ -1,3 +1,35 @@
 /* Including fonts */
 @font-face {
-  src: url("../../fonts/"); }
+  src: url("../../fonts/OFFICINASANSBOOKC.OTF");
+  font-family: "Officina Sans";
+  font-weight: 400; }
+
+@font-face {
+  src: url("../../fonts/OFFICINASANSBOLDC.OTF");
+  font-family: "Officina Sans";
+  font-weight: 700; }
+
+@font-face {
+  src: url("../../fonts/OFFICINASANSBLACKC.OTF");
+  font-family: "Officina Sans";
+  font-weight: 900; }
+
+@font-face {
+  src: url("../../fonts/OFFICINASANSBOOKC.OTF");
+  font-family: "Officina Sans Serif";
+  font-weight: 400; }
+
+@font-face {
+  src: url("../../fonts/OFFICINASANSBOLDC.OTF");
+  font-family: "Officina Sans Serif";
+  font-weight: 700; }
+
+@font-face {
+  src: url("../../fonts/OFFICINASERIFBLACKOSC.OTF");
+  font-family: "Officina Sans Serif";
+  font-weight: 900; }
+
+@font-face {
+  src: url("../../fonts/ArialMT.ttf");
+  font-family: "Arial MT";
+  font-weight: 400; }
