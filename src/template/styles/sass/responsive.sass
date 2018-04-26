@@ -44,11 +44,11 @@
 			margin-bottom: 0
 			
 		&__addresses, &__phones
-			width: 250px
+			width: 300px
 			padding-top: 90px
 			text-shadow: -0 -1px 0 #FFFFFF, 0 -1px 0 #FFFFFF, -0  1px 0 #FFFFFF, 0  1px 0 #FFFFFF, -1px -0 0 #FFFFFF, 1px -0 0 #FFFFFF, -1px  0 0 #FFFFFF, 1px  0 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px  1px 0 #FFFFFF, 1px  1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px  1px 0 #FFFFFF, 1px  1px 0 #FFFFFF
 		&__logo
-			width: calc(100% - 500px)
+			width: calc(100% - 600px)
 			
 		&__phones
 			float: right
@@ -71,7 +71,7 @@
 		&__pers
 			margin-left: 0px
 			&-title
-				display: none
+				// display: none
 			&-item
 				img
 					// max-width: none
@@ -98,6 +98,19 @@
 				display: block
 			span
 				display: none
+
+	.header__pers-item:nth-of-type(1) .header__pers-title
+		top: 330px
+		left: 20px
+		&:before
+			transform: rotate(90deg)
+
+	.header__pers-item:nth-of-type(4) .header__pers-title
+		right: 30px
+		top: 290px
+		&:before
+			left: 77px
+			transform: rotate(30deg)
 			
 	.team
 		margin-top: 0
@@ -298,6 +311,8 @@
 
 
 @media screen and (max-width: 970px)
+	.show_970
+		display: block
 	.case
 		width: 750px
 
@@ -320,7 +335,7 @@
 			width: auto
 			line-height: normal
 			font-size: 24px
-			padding-top: 65px
+			padding-top: 50px
 
 		&__title
 			left: 0

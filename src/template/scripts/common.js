@@ -1,6 +1,6 @@
 $(document).ready(function($) {
 
-	$('.text_phone').mask('+7 (999) 999-99-99');
+	$('.input_tel input').mask('+7 (999) 999-99-99');
 	
 
 	$('.pers__list').slick({
@@ -32,7 +32,7 @@ $(document).ready(function($) {
 			settings: {
 				slidesToShow: 4
 			}}, {
-			breakpoint: 1280,
+			breakpoint: 1300,
 			settings: {
 				slidesToShow: 3
 			}}, {
@@ -54,7 +54,7 @@ $(document).ready(function($) {
 			settings: {
 				slidesToShow: 2
 			}}, {
-			breakpoint: 1280,
+			breakpoint: 1300,
 			settings: {
 				slidesToShow: 1
 			}
@@ -76,7 +76,7 @@ $(document).ready(function($) {
 
 
 
-	$('.pers__block a').click(function(event) {
+	$('.pers__block a, .dops__item a, .programs__item a').click(function(event) {
 		var id = $(this).attr('data-src');
 		$(id + ' .pers__slider').slick();
 	});

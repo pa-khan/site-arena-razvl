@@ -34,12 +34,12 @@
     .header__content {
       margin-bottom: 0; }
     .header__addresses, .header__phones {
-      width: 250px;
+      width: 300px;
       padding-top: 90px;
       text-shadow: -0 -1px 0 #FFFFFF, 0 -1px 0 #FFFFFF, -0  1px 0 #FFFFFF, 0  1px 0 #FFFFFF, -1px -0 0 #FFFFFF, 1px -0 0 #FFFFFF, -1px  0 0 #FFFFFF, 1px  0 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px  1px 0 #FFFFFF, 1px  1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px  1px 0 #FFFFFF, 1px  1px 0 #FFFFFF; }
     .header__logo {
-      width: -webkit-calc(100% - 500px);
-      width: calc(100% - 500px); }
+      width: -webkit-calc(100% - 600px);
+      width: calc(100% - 600px); }
     .header__phones {
       float: right; }
     .header__nav li:nth-of-type(1) {
@@ -52,8 +52,6 @@
       width: 220px; }
     .header__pers {
       margin-left: 0px; }
-      .header__pers-title {
-        display: none; }
       .header__pers-item:nth-of-type(1) {
         width: 400px;
         left: -25px; }
@@ -75,6 +73,21 @@
         display: block; }
       .header__title span {
         display: none; }
+  .header__pers-item:nth-of-type(1) .header__pers-title {
+    top: 330px;
+    left: 20px; }
+    .header__pers-item:nth-of-type(1) .header__pers-title:before {
+      -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg); }
+  .header__pers-item:nth-of-type(4) .header__pers-title {
+    right: 30px;
+    top: 290px; }
+    .header__pers-item:nth-of-type(4) .header__pers-title:before {
+      left: 77px;
+      -webkit-transform: rotate(30deg);
+          -ms-transform: rotate(30deg);
+              transform: rotate(30deg); }
   .team {
     margin-top: 0;
     padding-top: 20px; }
@@ -239,6 +252,8 @@
     font-size: 24px; } }
 
 @media screen and (max-width: 970px) {
+  .show_970 {
+    display: block; }
   .case {
     width: 750px; }
   .header {
@@ -259,7 +274,7 @@
       width: auto;
       line-height: normal;
       font-size: 24px;
-      padding-top: 65px; }
+      padding-top: 50px; }
     .header__title {
       left: 0; }
       .header__title img {
